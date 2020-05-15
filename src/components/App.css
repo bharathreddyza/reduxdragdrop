@@ -1,0 +1,19 @@
+
+.listItem{
+background-color: grey;
+border-radius: 3%;
+width: 300px;
+padding: 8;
+margin-right: 8px;
+
+}
+
+.singleCard{
+    margin-bottom: 10px;
+}
+
+.listContainer{
+    display: flex;
+    flex-direction: row;
+    margin-right: 8px;
+ }
