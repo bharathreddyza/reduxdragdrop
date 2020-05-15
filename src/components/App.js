@@ -12,7 +12,7 @@ function App(props) {
   return (
     <div className="listContainer">
       {lists.map((list)=>(
-        <List title={list.title} cards={list.Cards} />
+        <List key={list.id} title={list.title} cards={list.Cards} />
 
       ))}
     </div>

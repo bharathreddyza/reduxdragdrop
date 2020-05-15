@@ -6,7 +6,9 @@ import './App.css'
 import { StylesProvider } from '@material-ui/core';
 const styles ={
   cardContainer: {
-    marginBottom:8
+    margin:8,
+    
+    
   }
 }
 

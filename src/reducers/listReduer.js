@@ -17,7 +17,7 @@ const initialState =[
     },
     {
         title:"listnumber 2",
-        id:0,
+        id:1,
         Cards:[
             {
                 id:0,
@@ -26,7 +26,17 @@ const initialState =[
             {
                 id:1,
                 text:'blabal bjbcjbc bcrjbrc'
-            }
+            },
+            {
+                id:2,
+                text:'blabal  bcrjbrc'
+            },{
+                id:3,
+                text:'v bjbcjbc dececrvrvr'
+            },{
+                id:4,
+                text:'mi vr bcrjbrc'
+            },
 
         ]
     }
