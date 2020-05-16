@@ -5,14 +5,14 @@ import Cards from './Cards'
 import ListActionButton from './ListActionButton'
 
 export default function List(props) {
-    const {title,cards} = props
+    const {title,cards,listId} = props
     return (
         <div className="listItem ">
             <h1>{title}</h1>
-            {cards.map((card)=>(
+            {cards.length >0? cards.map((card)=>(
                 <Cards key={card.id} cards={card}/>
-            ))}
-            <ListActionButton />
+            )):null}
+            <ListActionButton listId={listId} />
           </div>
     )
 }
